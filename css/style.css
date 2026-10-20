@@ -25,3 +25,12 @@
 
 /* Mercato SocoCup */
 .marketfilters{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}.marketfilters label{display:grid;gap:6px;font-weight:600;font-size:13px}.marketfilters input,.marketfilters select{width:100%;max-width:none}.marketlist{display:grid;gap:10px;margin-top:12px}.marketitem{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--line);border-radius:12px;background:#192c45}.marketitem[hidden]{display:none}.marketicon{display:grid;place-items:center;flex:none;width:38px;height:38px;border-radius:10px;background:#1d4562;color:var(--accent);font-size:22px}.marketitem>div:nth-child(2){flex:1;min-width:0}.marketmove{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:3px;font-size:13px}.marketverified{color:#b5f5dc;font-size:11px;white-space:nowrap}.marketempty{padding:24px 12px;text-align:center;border:1px dashed var(--line);border-radius:12px}@media(max-width:600px){.marketfilters{grid-template-columns:1fr}.marketitem{align-items:flex-start}}
+
+/* Giornale SocoCup */
+.newscats{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}
+.newscatbutton{border:1px solid var(--line);border-radius:999px;background:#1a314e;color:#e7f4ff;padding:9px 13px;cursor:pointer}
+.newscatbutton.selected{background:#38bdf8;color:#101d33;border-color:#38bdf8;font-weight:700}
+.newsfilters{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:16px 0}
+.newsfilters input{flex:1;min-width:170px}.newsfilters button{border:1px solid var(--line);border-radius:9px;background:#213b58;color:#fff;padding:10px 12px;cursor:pointer}
+.newslist{display:grid;gap:14px}.newsitem{border:1px solid var(--line);border-radius:12px;background:#192c45;padding:18px}.newsitem[hidden]{display:none}.newsitem h3{margin:8px 0}.newscat{display:inline-block;color:#38bdf8;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}.newsitem p{white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:600px){.newscats{gap:7px}.newscatbutton{font-size:12px;padding:8px 10px}.newsfilters label{width:100%}}
