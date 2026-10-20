@@ -1,1 +1,2640 @@
-
+{
+  "standings": [
+    {
+      "pos": 1,
+      "name": "Berlusca Dortmund",
+      "g": 5,
+      "v": 3,
+      "n": 2,
+      "p": 0,
+      "gf": 11,
+      "gs": 3,
+      "dr": 8,
+      "pt": 11,
+      "fantapunti": 384
+    },
+    {
+      "pos": 2,
+      "name": "Aston Birra",
+      "g": 5,
+      "v": 3,
+      "n": 0,
+      "p": 2,
+      "gf": 11,
+      "gs": 7,
+      "dr": 4,
+      "pt": 9,
+      "fantapunti": 383
+    },
+    {
+      "pos": 3,
+      "name": "Palermo Saint-Rosalia",
+      "g": 5,
+      "v": 2,
+      "n": 2,
+      "p": 1,
+      "gf": 9,
+      "gs": 7,
+      "dr": 2,
+      "pt": 8,
+      "fantapunti": 374.5
+    },
+    {
+      "pos": 4,
+      "name": "STOKE AZZO",
+      "g": 5,
+      "v": 2,
+      "n": 2,
+      "p": 1,
+      "gf": 6,
+      "gs": 7,
+      "dr": -1,
+      "pt": 8,
+      "fantapunti": 356
+    },
+    {
+      "pos": 5,
+      "name": "Hertavernello",
+      "g": 5,
+      "v": 2,
+      "n": 2,
+      "p": 1,
+      "gf": 7,
+      "gs": 8,
+      "dr": -1,
+      "pt": 8,
+      "fantapunti": 347.5
+    },
+    {
+      "pos": 6,
+      "name": "Vecio Lanificio Rossi United",
+      "g": 5,
+      "v": 2,
+      "n": 1,
+      "p": 2,
+      "gf": 8,
+      "gs": 6,
+      "dr": 2,
+      "pt": 7,
+      "fantapunti": 352
+    },
+    {
+      "pos": 7,
+      "name": "Ciccio Kebab FC",
+      "g": 5,
+      "v": 2,
+      "n": 0,
+      "p": 3,
+      "gf": 8,
+      "gs": 10,
+      "dr": -2,
+      "pt": 6,
+      "fantapunti": 368.5
+    },
+    {
+      "pos": 8,
+      "name": "Lamin Kiadura",
+      "g": 5,
+      "v": 1,
+      "n": 1,
+      "p": 3,
+      "gf": 8,
+      "gs": 12,
+      "dr": -4,
+      "pt": 4,
+      "fantapunti": 368.5
+    },
+    {
+      "pos": 9,
+      "name": "ipsiwich down",
+      "g": 5,
+      "v": 1,
+      "n": 1,
+      "p": 3,
+      "gf": 5,
+      "gs": 11,
+      "dr": -6,
+      "pt": 4,
+      "fantapunti": 348
+    },
+    {
+      "pos": 10,
+      "name": "palermo",
+      "g": 5,
+      "v": 1,
+      "n": 1,
+      "p": 3,
+      "gf": 5,
+      "gs": 7,
+      "dr": -2,
+      "pt": 4,
+      "fantapunti": 340.5
+    }
+  ],
+  "rosters": {
+    "STOKE AZZO": [
+      {
+        "name": "Meret",
+        "cost": 21
+      },
+      {
+        "name": "Caprile",
+        "cost": 7
+      },
+      {
+        "name": "Bijlow",
+        "cost": 5
+      },
+      {
+        "name": "Bastoni",
+        "cost": 30
+      },
+      {
+        "name": "Molina N.",
+        "cost": 21
+      },
+      {
+        "name": "Cambiaso",
+        "cost": 10
+      },
+      {
+        "name": "Bernasconi",
+        "cost": 7
+      },
+      {
+        "name": "Kristensen T.",
+        "cost": 2
+      },
+      {
+        "name": "Holm",
+        "cost": 2
+      },
+      {
+        "name": "Coco",
+        "cost": 1
+      },
+      {
+        "name": "Badiashile",
+        "cost": 1
+      },
+      {
+        "name": "Calhanoglu",
+        "cost": 112
+      },
+      {
+        "name": "Gudmundsson A.",
+        "cost": 26
+      },
+      {
+        "name": "Atta",
+        "cost": 14
+      },
+      {
+        "name": "Busio",
+        "cost": 10
+      },
+      {
+        "name": "Mandragora",
+        "cost": 4
+      },
+      {
+        "name": "Baldanzi",
+        "cost": 1
+      },
+      {
+        "name": "Cancellieri",
+        "cost": 1
+      },
+      {
+        "name": "De Roon",
+        "cost": 1
+      },
+      {
+        "name": "Soulè",
+        "cost": 71
+      },
+      {
+        "name": "De Ketelaere",
+        "cost": 46
+      },
+      {
+        "name": "Berardi",
+        "cost": 22
+      },
+      {
+        "name": "Osmajic",
+        "cost": 12
+      },
+      {
+        "name": "Gnonto",
+        "cost": 1
+      },
+      {
+        "name": "Piccoli",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 429
+      }
+    ],
+    "palermo": [
+      {
+        "name": "Vicario",
+        "cost": 36
+      },
+      {
+        "name": "Grabara",
+        "cost": 1
+      },
+      {
+        "name": "Thiam",
+        "cost": 1
+      },
+      {
+        "name": "Bremer",
+        "cost": 37
+      },
+      {
+        "name": "Celik",
+        "cost": 10
+      },
+      {
+        "name": "Heggem",
+        "cost": 1
+      },
+      {
+        "name": "Fortini",
+        "cost": 1
+      },
+      {
+        "name": "Delprato",
+        "cost": 1
+      },
+      {
+        "name": "Cabal",
+        "cost": 1
+      },
+      {
+        "name": "Dragusin",
+        "cost": 1
+      },
+      {
+        "name": "Juan Jesus",
+        "cost": 1
+      },
+      {
+        "name": "Douglas Luiz",
+        "cost": 18
+      },
+      {
+        "name": "Gonzalez N.",
+        "cost": 16
+      },
+      {
+        "name": "Alajbegovic",
+        "cost": 15
+      },
+      {
+        "name": "Adzic",
+        "cost": 3
+      },
+      {
+        "name": "Isaksen",
+        "cost": 1
+      },
+      {
+        "name": "El Shaarawy",
+        "cost": 1
+      },
+      {
+        "name": "Cristante",
+        "cost": 1
+      },
+      {
+        "name": "Pellegrini Lo.",
+        "cost": 1
+      },
+      {
+        "name": "Yildiz",
+        "cost": 110
+      },
+      {
+        "name": "Dybala",
+        "cost": 40
+      },
+      {
+        "name": "Romero D.",
+        "cost": 1
+      },
+      {
+        "name": "Stulic",
+        "cost": 1
+      },
+      {
+        "name": "Ghedjemis",
+        "cost": 1
+      },
+      {
+        "name": "Lucca",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 301
+      }
+    ],
+    "Aston Birra": [
+      {
+        "name": "Martinez Jo.",
+        "cost": 30
+      },
+      {
+        "name": "Provedel",
+        "cost": 6
+      },
+      {
+        "name": "Stankovic F.",
+        "cost": 2
+      },
+      {
+        "name": "Dimarco",
+        "cost": 101
+      },
+      {
+        "name": "Di Lorenzo",
+        "cost": 18
+      },
+      {
+        "name": "Kalulu",
+        "cost": 14
+      },
+      {
+        "name": "Tavares N.",
+        "cost": 5
+      },
+      {
+        "name": "Idzes",
+        "cost": 3
+      },
+      {
+        "name": "Carlos Augusto",
+        "cost": 3
+      },
+      {
+        "name": "Kelly L.",
+        "cost": 1
+      },
+      {
+        "name": "Obert",
+        "cost": 1
+      },
+      {
+        "name": "Paz N.",
+        "cost": 122
+      },
+      {
+        "name": "Zaccagni",
+        "cost": 21
+      },
+      {
+        "name": "Mastantuono",
+        "cost": 11
+      },
+      {
+        "name": "Milla",
+        "cost": 1
+      },
+      {
+        "name": "Fazzini",
+        "cost": 1
+      },
+      {
+        "name": "Colpani",
+        "cost": 1
+      },
+      {
+        "name": "Ferguson",
+        "cost": 1
+      },
+      {
+        "name": "Politano",
+        "cost": 1
+      },
+      {
+        "name": "Douvikas",
+        "cost": 93
+      },
+      {
+        "name": "Colombo",
+        "cost": 23
+      },
+      {
+        "name": "Pellegrino M.",
+        "cost": 16
+      },
+      {
+        "name": "Simeone",
+        "cost": 11
+      },
+      {
+        "name": "Bowie",
+        "cost": 3
+      },
+      {
+        "name": "Nzola",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 490
+      }
+    ],
+    "Ciccio Kebab FC": [
+      {
+        "name": "Skorupski",
+        "cost": 26
+      },
+      {
+        "name": "Pessina Mas.",
+        "cost": 1
+      },
+      {
+        "name": "Perri",
+        "cost": 1
+      },
+      {
+        "name": "Wesley",
+        "cost": 48
+      },
+      {
+        "name": "Bella-Kotchap",
+        "cost": 5
+      },
+      {
+        "name": "Franjic",
+        "cost": 1
+      },
+      {
+        "name": "Siebert",
+        "cost": 1
+      },
+      {
+        "name": "Pieragnolo",
+        "cost": 1
+      },
+      {
+        "name": "Doekhi",
+        "cost": 1
+      },
+      {
+        "name": "Valeri",
+        "cost": 1
+      },
+      {
+        "name": "Doig",
+        "cost": 1
+      },
+      {
+        "name": "Mora",
+        "cost": 43
+      },
+      {
+        "name": "Chukwueze",
+        "cost": 36
+      },
+      {
+        "name": "Ekkelenkamp",
+        "cost": 32
+      },
+      {
+        "name": "Bernardeschi",
+        "cost": 19
+      },
+      {
+        "name": "Vlasic",
+        "cost": 9
+      },
+      {
+        "name": "Samardzic",
+        "cost": 5
+      },
+      {
+        "name": "Kessiè",
+        "cost": 4
+      },
+      {
+        "name": "Musah",
+        "cost": 1
+      },
+      {
+        "name": "Scamacca",
+        "cost": 100
+      },
+      {
+        "name": "Hojlund",
+        "cost": 81
+      },
+      {
+        "name": "Raimondo",
+        "cost": 35
+      },
+      {
+        "name": "Camarda",
+        "cost": 17
+      },
+      {
+        "name": "Adams A.",
+        "cost": 1
+      },
+      {
+        "name": "Rrahmani Al.",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 471
+      }
+    ],
+    "Vecio Lanificio Rossi United": [
+      {
+        "name": "Falcone",
+        "cost": 8
+      },
+      {
+        "name": "Palmisani",
+        "cost": 5
+      },
+      {
+        "name": "Mascardi",
+        "cost": 1
+      },
+      {
+        "name": "Akanji",
+        "cost": 27
+      },
+      {
+        "name": "Bisseck",
+        "cost": 20
+      },
+      {
+        "name": "Kempf",
+        "cost": 15
+      },
+      {
+        "name": "Scalvini",
+        "cost": 5
+      },
+      {
+        "name": "Kofler",
+        "cost": 1
+      },
+      {
+        "name": "Ghilardi",
+        "cost": 1
+      },
+      {
+        "name": "Gatti",
+        "cost": 1
+      },
+      {
+        "name": "Rrahmani",
+        "cost": 1
+      },
+      {
+        "name": "Frattesi",
+        "cost": 55
+      },
+      {
+        "name": "Koopmeiners",
+        "cost": 5
+      },
+      {
+        "name": "Fitz-Jim",
+        "cost": 1
+      },
+      {
+        "name": "Karlstrom",
+        "cost": 1
+      },
+      {
+        "name": "Folorunsho",
+        "cost": 1
+      },
+      {
+        "name": "Zerbin",
+        "cost": 1
+      },
+      {
+        "name": "Frendrup",
+        "cost": 1
+      },
+      {
+        "name": "Loftus-Cheek",
+        "cost": 1
+      },
+      {
+        "name": "Malen",
+        "cost": 300
+      },
+      {
+        "name": "Varela G.",
+        "cost": 20
+      },
+      {
+        "name": "Mendy P.",
+        "cost": 15
+      },
+      {
+        "name": "Vitinha O.",
+        "cost": 3
+      },
+      {
+        "name": "N'Dri",
+        "cost": 1
+      },
+      {
+        "name": "Kvernadze",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 491
+      }
+    ],
+    "ipsiwich down": [
+      {
+        "name": "Okoye",
+        "cost": 10
+      },
+      {
+        "name": "Corvi",
+        "cost": 6
+      },
+      {
+        "name": "Muric",
+        "cost": 5
+      },
+      {
+        "name": "Hermoso",
+        "cost": 21
+      },
+      {
+        "name": "Diego Carlos",
+        "cost": 5
+      },
+      {
+        "name": "Spinazzola",
+        "cost": 5
+      },
+      {
+        "name": "Lucumì",
+        "cost": 3
+      },
+      {
+        "name": "Lulli",
+        "cost": 1
+      },
+      {
+        "name": "Valle",
+        "cost": 1
+      },
+      {
+        "name": "Vasquez",
+        "cost": 1
+      },
+      {
+        "name": "Kabasele",
+        "cost": 1
+      },
+      {
+        "name": "Pulisic",
+        "cost": 43
+      },
+      {
+        "name": "Da Cunha",
+        "cost": 42
+      },
+      {
+        "name": "De Bruyne",
+        "cost": 31
+      },
+      {
+        "name": "Rodriguez Je.",
+        "cost": 7
+      },
+      {
+        "name": "Taylor K.",
+        "cost": 1
+      },
+      {
+        "name": "Vergara",
+        "cost": 1
+      },
+      {
+        "name": "Sucic P.",
+        "cost": 1
+      },
+      {
+        "name": "Saelemaekers",
+        "cost": 1
+      },
+      {
+        "name": "Ramos G.",
+        "cost": 163
+      },
+      {
+        "name": "Raspadori",
+        "cost": 52
+      },
+      {
+        "name": "Dovbyk",
+        "cost": 31
+      },
+      {
+        "name": "Esposito Se.",
+        "cost": 13
+      },
+      {
+        "name": "Lang",
+        "cost": 1
+      },
+      {
+        "name": "Adams C.",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 447
+      }
+    ],
+    "Lamin Kiadura": [
+      {
+        "name": "Maignan",
+        "cost": 30
+      },
+      {
+        "name": "Carnesecchi",
+        "cost": 20
+      },
+      {
+        "name": "Sportiello",
+        "cost": 1
+      },
+      {
+        "name": "Gila",
+        "cost": 24
+      },
+      {
+        "name": "Chalobah T.",
+        "cost": 15
+      },
+      {
+        "name": "Pavlovic",
+        "cost": 10
+      },
+      {
+        "name": "Zappacosta",
+        "cost": 9
+      },
+      {
+        "name": "Bellanova",
+        "cost": 6
+      },
+      {
+        "name": "N'Dicka",
+        "cost": 5
+      },
+      {
+        "name": "Belghali",
+        "cost": 4
+      },
+      {
+        "name": "Hien",
+        "cost": 1
+      },
+      {
+        "name": "Rabiot",
+        "cost": 80
+      },
+      {
+        "name": "Baturina",
+        "cost": 66
+      },
+      {
+        "name": "Conceicao",
+        "cost": 41
+      },
+      {
+        "name": "Modric",
+        "cost": 15
+      },
+      {
+        "name": "Rowe",
+        "cost": 1
+      },
+      {
+        "name": "Perrone",
+        "cost": 1
+      },
+      {
+        "name": "Caqueret",
+        "cost": 1
+      },
+      {
+        "name": "Lobotka",
+        "cost": 1
+      },
+      {
+        "name": "Woltemade",
+        "cost": 110
+      },
+      {
+        "name": "Krstovic",
+        "cost": 25
+      },
+      {
+        "name": "Laurientè",
+        "cost": 25
+      },
+      {
+        "name": "Bonny",
+        "cost": 12
+      },
+      {
+        "name": "Diao",
+        "cost": 10
+      },
+      {
+        "name": "Robinson J.",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 514
+      }
+    ],
+    "Hertavernello": [
+      {
+        "name": "Butez",
+        "cost": 18
+      },
+      {
+        "name": "De Gea",
+        "cost": 4
+      },
+      {
+        "name": "Motta",
+        "cost": 1
+      },
+      {
+        "name": "Spence",
+        "cost": 10
+      },
+      {
+        "name": "Couto",
+        "cost": 9
+      },
+      {
+        "name": "Miranda J.",
+        "cost": 4
+      },
+      {
+        "name": "Floriani Mussolini",
+        "cost": 2
+      },
+      {
+        "name": "Cinquegrano",
+        "cost": 1
+      },
+      {
+        "name": "Valdepenas",
+        "cost": 1
+      },
+      {
+        "name": "Oyono A.",
+        "cost": 1
+      },
+      {
+        "name": "Pavard",
+        "cost": 1
+      },
+      {
+        "name": "Diouf",
+        "cost": 51
+      },
+      {
+        "name": "Barella",
+        "cost": 31
+      },
+      {
+        "name": "Ederson D.S.",
+        "cost": 20
+      },
+      {
+        "name": "Zaniolo",
+        "cost": 11
+      },
+      {
+        "name": "Cambiaghi",
+        "cost": 5
+      },
+      {
+        "name": "Romano",
+        "cost": 1
+      },
+      {
+        "name": "Cacciamani",
+        "cost": 1
+      },
+      {
+        "name": "Njie",
+        "cost": 1
+      },
+      {
+        "name": "Esposito F.P.",
+        "cost": 111
+      },
+      {
+        "name": "Pinamonti",
+        "cost": 94
+      },
+      {
+        "name": "Kolo Muani",
+        "cost": 51
+      },
+      {
+        "name": "Davis K.",
+        "cost": 40
+      },
+      {
+        "name": "Beto",
+        "cost": 16
+      },
+      {
+        "name": "Neres",
+        "cost": 3
+      },
+      {
+        "name": "totale",
+        "cost": 488
+      }
+    ],
+    "Palermo Saint-Rosalia": [
+      {
+        "name": "Svilar",
+        "cost": 47
+      },
+      {
+        "name": "De Marzi",
+        "cost": 1
+      },
+      {
+        "name": "Gollini",
+        "cost": 1
+      },
+      {
+        "name": "Kamara H.",
+        "cost": 29
+      },
+      {
+        "name": "Mancini",
+        "cost": 13
+      },
+      {
+        "name": "De Winter",
+        "cost": 10
+      },
+      {
+        "name": "Zortea",
+        "cost": 3
+      },
+      {
+        "name": "Bracaglia",
+        "cost": 2
+      },
+      {
+        "name": "Comuzzo",
+        "cost": 1
+      },
+      {
+        "name": "Ismajli",
+        "cost": 1
+      },
+      {
+        "name": "Vojvoda",
+        "cost": 1
+      },
+      {
+        "name": "Orsolini",
+        "cost": 51
+      },
+      {
+        "name": "Gaetano",
+        "cost": 22
+      },
+      {
+        "name": "Calò",
+        "cost": 8
+      },
+      {
+        "name": "Zielinski",
+        "cost": 5
+      },
+      {
+        "name": "Pisilli",
+        "cost": 1
+      },
+      {
+        "name": "Volpato",
+        "cost": 1
+      },
+      {
+        "name": "Rovella",
+        "cost": 1
+      },
+      {
+        "name": "Zambo Anguissa",
+        "cost": 1
+      },
+      {
+        "name": "Martinez L.",
+        "cost": 260
+      },
+      {
+        "name": "Maldini",
+        "cost": 14
+      },
+      {
+        "name": "Lontani",
+        "cost": 1
+      },
+      {
+        "name": "Yeboah J.",
+        "cost": 1
+      },
+      {
+        "name": "Geubbels",
+        "cost": 1
+      },
+      {
+        "name": "Cutrone",
+        "cost": 1
+      },
+      {
+        "name": "totale",
+        "cost": 477
+      }
+    ],
+    "Berlusca Dortmund": [
+      {
+        "name": "Milinkovic-Savic V.",
+        "cost": 10
+      },
+      {
+        "name": "Sanchez Ro.",
+        "cost": 8
+      },
+      {
+        "name": "Mandas",
+        "cost": 7
+      },
+      {
+        "name": "Solet",
+        "cost": 11
+      },
+      {
+        "name": "Ramon",
+        "cost": 10
+      },
+      {
+        "name": "Dodò",
+        "cost": 7
+      },
+      {
+        "name": "Bartesaghi",
+        "cost": 6
+      },
+      {
+        "name": "Stones",
+        "cost": 5
+      },
+      {
+        "name": "Mangas",
+        "cost": 1
+      },
+      {
+        "name": "Ostigard",
+        "cost": 1
+      },
+      {
+        "name": "Haps",
+        "cost": 1
+      },
+      {
+        "name": "Moreira",
+        "cost": 19
+      },
+      {
+        "name": "Cissè A.",
+        "cost": 17
+      },
+      {
+        "name": "Konè M.",
+        "cost": 17
+      },
+      {
+        "name": "Jones C.",
+        "cost": 16
+      },
+      {
+        "name": "McKennie",
+        "cost": 15
+      },
+      {
+        "name": "McTominay",
+        "cost": 11
+      },
+      {
+        "name": "Liberali",
+        "cost": 5
+      },
+      {
+        "name": "Zalewski",
+        "cost": 3
+      },
+      {
+        "name": "Thuram",
+        "cost": 122
+      },
+      {
+        "name": "Kean",
+        "cost": 65
+      },
+      {
+        "name": "Santos A.",
+        "cost": 43
+      },
+      {
+        "name": "Tourè E.",
+        "cost": 17
+      },
+      {
+        "name": "Kevin Carlos",
+        "cost": 12
+      },
+      {
+        "name": "Castro S.",
+        "cost": 7
+      },
+      {
+        "name": "totale",
+        "cost": 436
+      }
+    ]
+  },
+  "fixtures": [
+    {
+      "day": 1,
+      "home": "Hertavernello",
+      "away": "Berlusca Dortmund",
+      "homePoints": 72.5,
+      "awayPoints": 75,
+      "score": "2-2"
+    },
+    {
+      "day": 2,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Hertavernello",
+      "homePoints": 67.5,
+      "awayPoints": 73,
+      "score": "1-2"
+    },
+    {
+      "day": 1,
+      "home": "STOKE AZZO",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 83.5,
+      "awayPoints": 75,
+      "score": "3-2"
+    },
+    {
+      "day": 2,
+      "home": "Ciccio Kebab FC",
+      "away": "Aston Birra",
+      "homePoints": 68.5,
+      "awayPoints": 76,
+      "score": "1-2"
+    },
+    {
+      "day": 1,
+      "home": "Lamin Kiadura",
+      "away": "ipsiwich down",
+      "homePoints": 77.5,
+      "awayPoints": 77,
+      "score": "2-2"
+    },
+    {
+      "day": 2,
+      "home": "ipsiwich down",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 65,
+      "awayPoints": 75.5,
+      "score": "0-2"
+    },
+    {
+      "day": 1,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 77.5,
+      "awayPoints": 82,
+      "score": "2-3"
+    },
+    {
+      "day": 2,
+      "home": "Berlusca Dortmund",
+      "away": "Lamin Kiadura",
+      "homePoints": 82.5,
+      "awayPoints": 62,
+      "score": "3-0"
+    },
+    {
+      "day": 1,
+      "home": "Aston Birra",
+      "away": "palermo",
+      "homePoints": 77.5,
+      "awayPoints": 66,
+      "score": "2-1"
+    },
+    {
+      "day": 2,
+      "home": "palermo",
+      "away": "STOKE AZZO",
+      "homePoints": 65,
+      "awayPoints": 65,
+      "score": "0-0"
+    },
+    {
+      "day": 3,
+      "home": "Hertavernello",
+      "away": "palermo",
+      "homePoints": 63.5,
+      "awayPoints": 79,
+      "score": "0-3"
+    },
+    {
+      "day": 4,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Berlusca Dortmund",
+      "homePoints": 55.5,
+      "awayPoints": 65,
+      "score": "0-0"
+    },
+    {
+      "day": 3,
+      "home": "STOKE AZZO",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 72.5,
+      "awayPoints": 64.5,
+      "score": "2-0"
+    },
+    {
+      "day": 4,
+      "home": "Palermo Saint-Rosalia",
+      "away": "STOKE AZZO",
+      "homePoints": 70.5,
+      "awayPoints": 70.5,
+      "score": "1-1"
+    },
+    {
+      "day": 3,
+      "home": "Lamin Kiadura",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 71.5,
+      "awayPoints": 80.5,
+      "score": "1-3"
+    },
+    {
+      "day": 4,
+      "home": "Ciccio Kebab FC",
+      "away": "Hertavernello",
+      "homePoints": 71.5,
+      "awayPoints": 72.5,
+      "score": "1-2"
+    },
+    {
+      "day": 3,
+      "home": "Berlusca Dortmund",
+      "away": "ipsiwich down",
+      "homePoints": 87,
+      "awayPoints": 68,
+      "score": "4-1"
+    },
+    {
+      "day": 4,
+      "home": "ipsiwich down",
+      "away": "Aston Birra",
+      "homePoints": 76,
+      "awayPoints": 71.5,
+      "score": "2-1"
+    },
+    {
+      "day": 3,
+      "home": "Aston Birra",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 73,
+      "awayPoints": 81.5,
+      "score": "2-3"
+    },
+    {
+      "day": 4,
+      "home": "palermo",
+      "away": "Lamin Kiadura",
+      "homePoints": 68,
+      "awayPoints": 80,
+      "score": "1-3"
+    },
+    {
+      "day": 5,
+      "home": "Hertavernello",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 66,
+      "awayPoints": 69.5,
+      "score": "1-1"
+    },
+    {
+      "day": 6,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 5,
+      "home": "STOKE AZZO",
+      "away": "Aston Birra",
+      "homePoints": 64.5,
+      "awayPoints": 85,
+      "score": "0-4"
+    },
+    {
+      "day": 6,
+      "home": "Ciccio Kebab FC",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 5,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "ipsiwich down",
+      "homePoints": 73.5,
+      "awayPoints": 62,
+      "score": "2-0"
+    },
+    {
+      "day": 6,
+      "home": "ipsiwich down",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 5,
+      "home": "Lamin Kiadura",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 77.5,
+      "awayPoints": 82,
+      "score": "2-3"
+    },
+    {
+      "day": 6,
+      "home": "palermo",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 5,
+      "home": "Berlusca Dortmund",
+      "away": "palermo",
+      "homePoints": 74.5,
+      "awayPoints": 62.5,
+      "score": "2-0"
+    },
+    {
+      "day": 6,
+      "home": "Aston Birra",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 7,
+      "home": "Hertavernello",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 8,
+      "home": "Hertavernello",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 7,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 8,
+      "home": "STOKE AZZO",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 7,
+      "home": "Lamin Kiadura",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 8,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 7,
+      "home": "Berlusca Dortmund",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 8,
+      "home": "Ciccio Kebab FC",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 7,
+      "home": "palermo",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 8,
+      "home": "Aston Birra",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 9,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 10,
+      "home": "Berlusca Dortmund",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 9,
+      "home": "Lamin Kiadura",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 10,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 9,
+      "home": "ipsiwich down",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 10,
+      "home": "ipsiwich down",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 9,
+      "home": "Berlusca Dortmund",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 10,
+      "home": "Ciccio Kebab FC",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 9,
+      "home": "palermo",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 10,
+      "home": "palermo",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 11,
+      "home": "Hertavernello",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 12,
+      "home": "palermo",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 11,
+      "home": "Aston Birra",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 12,
+      "home": "Ciccio Kebab FC",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 11,
+      "home": "Palermo Saint-Rosalia",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 12,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 11,
+      "home": "Lamin Kiadura",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 12,
+      "home": "ipsiwich down",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 11,
+      "home": "STOKE AZZO",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 12,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 13,
+      "home": "Berlusca Dortmund",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 14,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 13,
+      "home": "STOKE AZZO",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 14,
+      "home": "Aston Birra",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 13,
+      "home": "Hertavernello",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 14,
+      "home": "ipsiwich down",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 13,
+      "home": "Aston Birra",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 14,
+      "home": "Ciccio Kebab FC",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 13,
+      "home": "Lamin Kiadura",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 14,
+      "home": "palermo",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 15,
+      "home": "Lamin Kiadura",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 16,
+      "home": "STOKE AZZO",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 15,
+      "home": "Berlusca Dortmund",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 16,
+      "home": "Ciccio Kebab FC",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 15,
+      "home": "STOKE AZZO",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 16,
+      "home": "Aston Birra",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 15,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 16,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 15,
+      "home": "Hertavernello",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 16,
+      "home": "ipsiwich down",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 17,
+      "home": "ipsiwich down",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 18,
+      "home": "Aston Birra",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 17,
+      "home": "Lamin Kiadura",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 18,
+      "home": "Hertavernello",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 17,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 18,
+      "home": "Ciccio Kebab FC",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 17,
+      "home": "palermo",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 18,
+      "home": "STOKE AZZO",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 17,
+      "home": "Berlusca Dortmund",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 18,
+      "home": "Palermo Saint-Rosalia",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 19,
+      "home": "Hertavernello",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 20,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 19,
+      "home": "STOKE AZZO",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 20,
+      "home": "Ciccio Kebab FC",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 19,
+      "home": "Lamin Kiadura",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 20,
+      "home": "ipsiwich down",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 19,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 20,
+      "home": "Berlusca Dortmund",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 19,
+      "home": "Aston Birra",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 20,
+      "home": "palermo",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 21,
+      "home": "Hertavernello",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 22,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 21,
+      "home": "STOKE AZZO",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 22,
+      "home": "Palermo Saint-Rosalia",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 21,
+      "home": "Lamin Kiadura",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 22,
+      "home": "Ciccio Kebab FC",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 21,
+      "home": "Berlusca Dortmund",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 22,
+      "home": "ipsiwich down",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 21,
+      "home": "Aston Birra",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 22,
+      "home": "palermo",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 23,
+      "home": "Hertavernello",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 24,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 23,
+      "home": "STOKE AZZO",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 24,
+      "home": "Ciccio Kebab FC",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 23,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 24,
+      "home": "ipsiwich down",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 23,
+      "home": "Lamin Kiadura",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 24,
+      "home": "palermo",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 23,
+      "home": "Berlusca Dortmund",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 24,
+      "home": "Aston Birra",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 25,
+      "home": "Hertavernello",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 26,
+      "home": "Hertavernello",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 25,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 26,
+      "home": "STOKE AZZO",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 25,
+      "home": "Lamin Kiadura",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 26,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 25,
+      "home": "Berlusca Dortmund",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 26,
+      "home": "Ciccio Kebab FC",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 25,
+      "home": "palermo",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 26,
+      "home": "Aston Birra",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 27,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 28,
+      "home": "Berlusca Dortmund",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 27,
+      "home": "Lamin Kiadura",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 28,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 27,
+      "home": "ipsiwich down",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 28,
+      "home": "ipsiwich down",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 27,
+      "home": "Berlusca Dortmund",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 28,
+      "home": "Ciccio Kebab FC",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 27,
+      "home": "palermo",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 28,
+      "home": "palermo",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 29,
+      "home": "Hertavernello",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 30,
+      "home": "palermo",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 29,
+      "home": "Aston Birra",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 30,
+      "home": "Ciccio Kebab FC",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 29,
+      "home": "Palermo Saint-Rosalia",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 30,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 29,
+      "home": "Lamin Kiadura",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 30,
+      "home": "ipsiwich down",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 29,
+      "home": "STOKE AZZO",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 30,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 31,
+      "home": "Berlusca Dortmund",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 32,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 31,
+      "home": "STOKE AZZO",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 32,
+      "home": "Aston Birra",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 31,
+      "home": "Hertavernello",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 32,
+      "home": "ipsiwich down",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 31,
+      "home": "Aston Birra",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 32,
+      "home": "Ciccio Kebab FC",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 31,
+      "home": "Lamin Kiadura",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 32,
+      "home": "palermo",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 33,
+      "home": "Lamin Kiadura",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 34,
+      "home": "STOKE AZZO",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 33,
+      "home": "Berlusca Dortmund",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 34,
+      "home": "Ciccio Kebab FC",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 33,
+      "home": "STOKE AZZO",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 34,
+      "home": "Aston Birra",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 33,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 34,
+      "home": "Palermo Saint-Rosalia",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 33,
+      "home": "Hertavernello",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 34,
+      "home": "ipsiwich down",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 35,
+      "home": "ipsiwich down",
+      "away": "Hertavernello",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 36,
+      "home": "Aston Birra",
+      "away": "Vecio Lanificio Rossi United",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 35,
+      "home": "Lamin Kiadura",
+      "away": "STOKE AZZO",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 36,
+      "home": "Hertavernello",
+      "away": "Lamin Kiadura",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 35,
+      "home": "Vecio Lanificio Rossi United",
+      "away": "Palermo Saint-Rosalia",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 36,
+      "home": "Ciccio Kebab FC",
+      "away": "ipsiwich down",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 35,
+      "home": "palermo",
+      "away": "Ciccio Kebab FC",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 36,
+      "home": "STOKE AZZO",
+      "away": "Berlusca Dortmund",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 35,
+      "home": "Berlusca Dortmund",
+      "away": "Aston Birra",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    },
+    {
+      "day": 36,
+      "home": "Palermo Saint-Rosalia",
+      "away": "palermo",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "score": "-"
+    }
+  ],
+  "source": "File Excel Socoleague forniti il 20 ottobre 2026",
+  "updated": "2026-10-20"
+}
