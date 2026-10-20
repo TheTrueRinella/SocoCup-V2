@@ -1,0 +1,6 @@
+SOCOCUP V2 - MERCATO
+Carica js/app.js, css/style.css e data/mercato.json nelle rispettive cartelle GitHub.
+Non toccare data/league.json o index.html.
+Il Mercato ha ricerca e filtro squadra. Il registro parte vuoto perche non sono stati forniti trasferimenti confermati.
+Formato per una operazione: [{"giocatore":"Nome", "da":"Squadra A", "a":"Squadra B", "data":"2026-10-20", "nota":"Fonte verificata", "confermato":true}]
+Non inserire dati privati: il repository e pubblico.
