@@ -1,0 +1,26 @@
+SOCOCUP V2 — AGGIORNAMENTO GIORNALE
+
+Carica i seguenti file su GitHub nelle rispettive cartelle:
+- js/app.js (sostituisci)
+- css/style.css (sostituisci)
+- data/articoli.json (aggiungi)
+
+Non modificare data/league.json, data/mercato.json o index.html.
+
+Le rubriche sono: Ultim’ora, Campionato, Calciomercato, Interviste, Editoriali, Pagelle.
+Il file articoli.json parte vuoto: nessuna notizia è inventata.
+
+Esempio di formato di un articolo APPROVATO (solo se vero):
+[
+  {
+    "titolo": "Titolo verificato",
+    "categoria": "Campionato",
+    "data": "2026-10-20",
+    "autore": "Redazione SocoCup",
+    "testo": "Testo dell'articolo approvato.",
+    "stato": "pubblicato"
+  }
+]
+
+Non aggiungere bozze non approvate in un file pubblico.
+Il pannello admin con accesso sicuro NON è ancora attivo.
