@@ -1,11 +1,23 @@
-SOCOCUP V2 - ANTEPRIMA LOGIN
+SOCOCUP V2 — LOGIN PRESIDENTI CON TURNSTILE
 
-Questi file aggiungono una schermata di accesso VISIVA, non ancora funzionante.
-Il pulsante Accedi interno e disabilitato intenzionalmente. Nessun PIN viene trasmesso o memorizzato.
+File da caricare nel repository GitHub SocoCup-V2:
+1. index.html -> radice del repository (sostituisce index.html)
+2. js/login.js -> cartella js/ (nuovo file)
 
-Carica nel repository V2: index.html nella radice, js/login-preview.js in js/.
-js/app.js e js/supabase-config.js sono inclusi come copie inalterate: non serve ricaricarli.
-Non modificare il repository V1.
+Il file js/login-preview.js può rimanere nel repository ma NON viene più caricato.
+NON sostituire gli altri file del sito (js/app.js, CSS, dati ecc.).
 
-Per attivare il login servono: site key Turnstile, integrazione CAPTCHA signInAnonymously, backend sicuro testato, protezione anti-abuso della verifica PIN, autorizzazioni per operazioni riservate.
-Non pubblicare secret key Cloudflare o service_role su GitHub.
+REQUISITI:
+- Edge Function sococup-team-login pubblicata e Verify JWT with legacy secret OFF.
+- Supabase Auth Anonymous Sign-Ins e CAPTCHA Turnstile abilitati.
+- Il widget Turnstile deve autorizzare thetruerinella.github.io.
+- Per ripristinare l'accesso dopo il refresh, la policy RLS SELECT di sococup_profiles
+  deve consentire all'utente authenticated di leggere SOLO il proprio user_id.
+- La funzione SQL deve essere stata installata e le variabili d'ambiente
+  SUPABASE_URL e SUPABASE_SERVICE_ROLE_KEY disponibili nella Edge Function.
+
+NOTE:
+- Questa integrazione NON concede ancora privilegi di scrittura alle sezioni del sito.
+- Il blocco PIN a livello squadra non sostituisce un rate limit per IP/utente.
+- Il login va verificato dal vivo: non è stato testato contro il progetto Supabase.
+- Il tasto Esci chiude la sessione locale, non cancella il profilo sul database.
