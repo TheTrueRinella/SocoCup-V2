@@ -1,0 +1,11 @@
+SOCOCUP V2 - ANTEPRIMA LOGIN
+
+Questi file aggiungono una schermata di accesso VISIVA, non ancora funzionante.
+Il pulsante Accedi interno e disabilitato intenzionalmente. Nessun PIN viene trasmesso o memorizzato.
+
+Carica nel repository V2: index.html nella radice, js/login-preview.js in js/.
+js/app.js e js/supabase-config.js sono inclusi come copie inalterate: non serve ricaricarli.
+Non modificare il repository V1.
+
+Per attivare il login servono: site key Turnstile, integrazione CAPTCHA signInAnonymously, backend sicuro testato, protezione anti-abuso della verifica PIN, autorizzazioni per operazioni riservate.
+Non pubblicare secret key Cloudflare o service_role su GitHub.
