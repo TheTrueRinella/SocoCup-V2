@@ -1,13 +1,10 @@
-SOCOCUP V2 — FASE 2A: LA MIA SQUADRA
+SOCOCUP V2 - FASE 3A: SOCOSOCIAL REALE
 
-Carica SOLO questi due file nel repository SocoCup-V2:
-1. index.html nella cartella principale (sostituisci il vecchio).
-2. js/profilo.js nella cartella js (nuovo file).
+1. In Supabase V2 -> SQL Editor -> New query, incolla ed esegui 01_SUPABASE.sql.
+2. Nel repository GitHub SocoCup-V2 sostituisci SOLO index.html con quello di questo ZIP.
+3. Carica js/socosocial.js nella cartella js.
+4. NON toccare js/login.js, js/profilo.js, js/app.js, PIN, Turnstile, SocoCup V1.
+5. Apri il sito, Ctrl+F5, clicca SocoSocial e prova un post.
 
-NON modificare js/login.js, Supabase, Cloudflare o il repository V1.
-
-Funzione: dopo il login compare il collegamento «La mia squadra» che porta alla scheda della squadra autenticata. Il modulo legge soltanto il proprio profilo, usando la policy RLS gia configurata. Non aggiunge permessi di scrittura.
-
-Verifica: accedi, attendi un istante, premi «La mia squadra», poi F5.
-
-Nota: questa fase NON implementa ancora post su SocoSocial o operazioni di mercato.
+FUNZIONI: feed, post, commenti, like, eliminazione dei propri contenuti, salvataggio Supabase, RLS.
+LIMITI: questa fase NON importa automaticamente notizie e NON genera ancora risposte automatiche. Per notizie reali occorre un feed attendibile e una funzione server; per account automatizzati occorre un profilo trasparente che li identifichi come tali. Non pubblicare finte notizie o far passare account automatizzati per persone reali.
