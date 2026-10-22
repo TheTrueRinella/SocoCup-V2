@@ -202,7 +202,32 @@
 <script type="module" src="js/login.js"></script>
 <script type="module" src="js/profilo.js"></script>
 <script type="module" src="js/socosocial.js"></script>
-<script src="js/social-nav-fix.js" defer></script>
+
+<script>
+(function () {
+  function correggiMenuSocoSocial() {
+    document.querySelectorAll('#nav a, .nav a').forEach(function (link) {
+      if (link.textContent.trim().toLowerCase().includes('socosocial')) {
+        link.setAttribute('href', '#socosocial');
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          window.location.hash = '#socosocial';
+          window.dispatchEvent(new HashChangeEvent('hashchange'));
+        }, true);
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', correggiMenuSocoSocial);
+
+  new MutationObserver(correggiMenuSocoSocial).observe(
+    document.getElementById('nav'),
+    { childList: true, subtree: true }
+  );
+})();
+</script>
+
 
 </body>
 </html>
