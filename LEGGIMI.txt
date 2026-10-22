@@ -1,23 +1,13 @@
-SOCOCUP V2 — LOGIN PRESIDENTI CON TURNSTILE
+SOCOCUP V2 — FASE 2A: LA MIA SQUADRA
 
-File da caricare nel repository GitHub SocoCup-V2:
-1. index.html -> radice del repository (sostituisce index.html)
-2. js/login.js -> cartella js/ (nuovo file)
+Carica SOLO questi due file nel repository SocoCup-V2:
+1. index.html nella cartella principale (sostituisci il vecchio).
+2. js/profilo.js nella cartella js (nuovo file).
 
-Il file js/login-preview.js può rimanere nel repository ma NON viene più caricato.
-NON sostituire gli altri file del sito (js/app.js, CSS, dati ecc.).
+NON modificare js/login.js, Supabase, Cloudflare o il repository V1.
 
-REQUISITI:
-- Edge Function sococup-team-login pubblicata e Verify JWT with legacy secret OFF.
-- Supabase Auth Anonymous Sign-Ins e CAPTCHA Turnstile abilitati.
-- Il widget Turnstile deve autorizzare thetruerinella.github.io.
-- Per ripristinare l'accesso dopo il refresh, la policy RLS SELECT di sococup_profiles
-  deve consentire all'utente authenticated di leggere SOLO il proprio user_id.
-- La funzione SQL deve essere stata installata e le variabili d'ambiente
-  SUPABASE_URL e SUPABASE_SERVICE_ROLE_KEY disponibili nella Edge Function.
+Funzione: dopo il login compare il collegamento «La mia squadra» che porta alla scheda della squadra autenticata. Il modulo legge soltanto il proprio profilo, usando la policy RLS gia configurata. Non aggiunge permessi di scrittura.
 
-NOTE:
-- Questa integrazione NON concede ancora privilegi di scrittura alle sezioni del sito.
-- Il blocco PIN a livello squadra non sostituisce un rate limit per IP/utente.
-- Il login va verificato dal vivo: non è stato testato contro il progetto Supabase.
-- Il tasto Esci chiude la sessione locale, non cancella il profilo sul database.
+Verifica: accedi, attendi un istante, premi «La mia squadra», poi F5.
+
+Nota: questa fase NON implementa ancora post su SocoSocial o operazioni di mercato.
