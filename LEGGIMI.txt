@@ -1,10 +1,8 @@
-SOCOCUP V2 - FASE 3A: SOCOSOCIAL REALE
-
-1. In Supabase V2 -> SQL Editor -> New query, incolla ed esegui 01_SUPABASE.sql.
-2. Nel repository GitHub SocoCup-V2 sostituisci SOLO index.html con quello di questo ZIP.
-3. Carica js/socosocial.js nella cartella js.
-4. NON toccare js/login.js, js/profilo.js, js/app.js, PIN, Turnstile, SocoCup V1.
-5. Apri il sito, Ctrl+F5, clicca SocoSocial e prova un post.
-
-FUNZIONI: feed, post, commenti, like, eliminazione dei propri contenuti, salvataggio Supabase, RLS.
-LIMITI: questa fase NON importa automaticamente notizie e NON genera ancora risposte automatiche. Per notizie reali occorre un feed attendibile e una funzione server; per account automatizzati occorre un profilo trasparente che li identifichi come tali. Non pubblicare finte notizie o far passare account automatizzati per persone reali.
+FASE 3B - Correzione collegamento SocoSocial
+1. Carica js/social-nav-fix.js nella cartella js del repository SocoCup-V2.
+2. In index.html, prima di </body>, aggiungi:
+   <script src="js/social-nav-fix.js" defer></script>
+   In alternativa, se index.html e' ancora IDENTICO a quello della Fase 3A, puoi usare l'index.html incluso nello ZIP.
+3. NON cambiare js/login.js, js/socosocial.js, js/app.js o Supabase.
+4. Aggiorna con Ctrl+F5 e prova il menu.
+NOTA: questo aggiornamento corregge SOLO la navigazione. Feed notizie, pagine meme e risposte automatiche non sono inclusi.
