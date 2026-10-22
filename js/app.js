@@ -1,5 +1,5 @@
 'use strict';
-const SECTIONS=[['home','Home'],['campionato','Campionato'],['squadre','Squadre'],['mercato','Mercato'],['giornale','Giornale'],['socobet','SocoBet'],['social','SocoSocial']];
+const SECTIONS=[['home','Home'],['campionato','Campionato'],['squadre','Squadre'],['mercato','Mercato'],['giornale','Giornale'],['socobet','SocoBet'],['socosocial','SocoSocial']];
 let data;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const teamHref=s=>'#squadre/'+encodeURIComponent(s);
