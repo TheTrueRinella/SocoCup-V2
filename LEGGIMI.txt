@@ -1,15 +1,1 @@
-SOCOCUP V2 - LA CURVA (FASE GRAFICA, NON BACKEND)
-
-Questo ZIP NON contiene index.html: per sicurezza non sostituiamo il login che ora funziona.
-
-1. Carica css/curva.css e js/curva.js nel repository SocoCup-V2 mantenendo le cartelle.
-2. Apri l'index.html ATTUALMENTE ONLINE su GitHub in modifica.
-3. Prima di </head> aggiungi:
-   <link rel="stylesheet" href="css/curva.css">
-4. Prima di </body> aggiungi:
-   <script src="js/curva.js" defer></script>
-5. Salva, attendi GitHub Pages e apri #social con F5.
-
-Il componente aggiunge quattro schede e l'elenco delle 10 squadre; NON sostituisce il feed esistente, i post Supabase o login.js.
-La sezione Seguiti non e' ancora attiva; immagini, repost e notifiche richiedono ulteriori tabelle, storage e policy.
-Se il sito live usa un contenitore diverso da #app o un hash diverso da #social, occorre adattare lo script.
+Carica index.html nella radice del repository SocoCup-V2 (sostituendo quello attuale). Carica css/curva.css e js/curva.js nelle rispettive cartelle. NON cancellare gli altri file e NON modificare js/login.js. Dopo il deploy aggiorna la pagina. Conserva una copia del precedente index.html prima di sostituirlo.
