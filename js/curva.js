@@ -17,7 +17,7 @@
   [...app.children].forEach(n=>{if(n!==shell){if(active==='perte'){if(n.dataset.curvaHidden==='yes'){n.hidden=false;delete n.dataset.curvaHidden;}}else if(!n.hidden){n.hidden=true;n.dataset.curvaHidden='yes';}}});
   }
   function enhance(){if(busy)return;busy=true;try{
-    if(!location.hash.startsWith('#social'))return;
+    if(!(/^#(?:socosocial|social)(?:$|[/?-])/i).test(location.hash))return;
     if(document.getElementById('soco-curva-shell'))return;
     const shell=el('section');shell.id='soco-curva-shell';shell.setAttribute('aria-label','SocoSocial La Curva');
     const head=el('div','curva-head');const left=el('div');left.append(el('h2','','⚽ La Curva'),el('div','curva-sub','Il social della SocoLeague'));head.append(left);shell.append(head);
@@ -25,6 +25,6 @@
     const panel=el('div','curva-panel');shell.append(panel);app.prepend(shell);renderPanel(shell);
   }finally{busy=false}}
   window.addEventListener('hashchange',()=>{active='perte';setTimeout(enhance,80)});
-  const observer=new MutationObserver(()=>{if(location.hash.startsWith('#social')&&!document.getElementById('soco-curva-shell'))enhance()});observer.observe(app,{childList:true});
+  const observer=new MutationObserver(()=>{if((/^#(?:socosocial|social)(?:$|[/?-])/i).test(location.hash)&&!document.getElementById('soco-curva-shell'))enhance()});observer.observe(app,{childList:true});
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',enhance);else enhance();
 })();
