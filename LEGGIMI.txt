@@ -1,8 +1,15 @@
-FASE 3B - Correzione collegamento SocoSocial
-1. Carica js/social-nav-fix.js nella cartella js del repository SocoCup-V2.
-2. In index.html, prima di </body>, aggiungi:
-   <script src="js/social-nav-fix.js" defer></script>
-   In alternativa, se index.html e' ancora IDENTICO a quello della Fase 3A, puoi usare l'index.html incluso nello ZIP.
-3. NON cambiare js/login.js, js/socosocial.js, js/app.js o Supabase.
-4. Aggiorna con Ctrl+F5 e prova il menu.
-NOTA: questo aggiornamento corregge SOLO la navigazione. Feed notizie, pagine meme e risposte automatiche non sono inclusi.
+SOCOCUP V2 - LA CURVA (FASE GRAFICA, NON BACKEND)
+
+Questo ZIP NON contiene index.html: per sicurezza non sostituiamo il login che ora funziona.
+
+1. Carica css/curva.css e js/curva.js nel repository SocoCup-V2 mantenendo le cartelle.
+2. Apri l'index.html ATTUALMENTE ONLINE su GitHub in modifica.
+3. Prima di </head> aggiungi:
+   <link rel="stylesheet" href="css/curva.css">
+4. Prima di </body> aggiungi:
+   <script src="js/curva.js" defer></script>
+5. Salva, attendi GitHub Pages e apri #social con F5.
+
+Il componente aggiunge quattro schede e l'elenco delle 10 squadre; NON sostituisce il feed esistente, i post Supabase o login.js.
+La sezione Seguiti non e' ancora attiva; immagini, repost e notifiche richiedono ulteriori tabelle, storage e policy.
+Se il sito live usa un contenitore diverso da #app o un hash diverso da #social, occorre adattare lo script.
